@@ -1,0 +1,42 @@
+Country	GDP
+Sweden	511,397
+Norway	370,449
+Argentina[7]	545,124
+Saudi Arabia	646,438
+Egypt	332,349
+India	2,263,792
+Netherlands	777,548
+Turkey	863,390
+Brazil	1,798,622
+Singapore	296,967
+Taiwan[4]	528,550
+Canada	1,529,760
+Australia	1,261,645
+Iran	376,755
+European Union[n 1][19]	16,408,364
+Nigeria	405,952
+Italy	1,850,735
+France	2,466,472
+Poland	467,591
+Thailand	406,949
+Ireland	293,605
+Mexico	1,046,925
+Switzerland	669,038
+Austria	386,752
+Philippines	304,696
+Spain	1,232,603
+United Arab Emirates	371,353
+Malaysia	296,359
+Belgium	466,960
+Denmark	306,730
+Japan	4,936,543
+United States	18,624,450
+Indonesia	932,448
+Hong Kong	320,668
+China[n 2]	11,232,108
+South Africa	294,132
+South Korea	1,411,042
+Russia[n 3]	1,283,162
+Israel	318,386
+United Kingdom	2,629,188
+Colombia	282,357

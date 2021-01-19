@@ -1,0 +1,189 @@
+<html xml:lang="es" dir="ltr" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+      <title>EstadÃ­stica diaria del sistema elÃ©ctrico espaÃ±ol en Baleares</title>
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+  <meta http-equiv="Pragma" content="no-cache">
+  <!-- MetaTags Webtrends -->  
+   <meta name="WT.sv" content="wwww">
+   <meta name="WT.idioma" content="espaÃ±ol">
+   <meta name="WT.cg_n" content="Actividades">
+   <meta name="WT.cg_s" content="Balance diario">
+   <meta name="WT.tema" content="Balance diario">
+  <!-- FIN MetaTags -->   
+
+  <link rel="stylesheet" type="text/css" media="all" href="./task1_files/balance_diario.css">
+  <!-- Hoja de estilo para impresiÃ³n -->
+  <link rel="stylesheet" type="text/css" media="print" href="./task1_files/balance_diario_impresion.css">
+
+  <script src="./task1_files/operacion.js.download" type="text/javascript"></script><style id="dark-reader-style" type="text/css">@media screen {
+
+/* Leading rule */
+html {
+  -webkit-filter: invert(100%) hue-rotate(180deg) brightness(110%) contrast(80%) grayscale(50%) !important;
+}
+
+/* Contrary rule */
+img, video, :not(object):not(body)>embed, object,
+iframe,
+svg image,
+[style*='background:url'], [style*='background-image:url'],
+[style*='background: url'], [style*='background-image: url'],
+[background],
+twitterwidget {
+  -webkit-filter: invert(100%) hue-rotate(180deg) !important;
+}
+[style*='background:url'] *, [style*='background-image:url'] *,
+[style*='background: url'] *, [style*='background-image: url'] *,
+input,
+[background] * {
+  -webkit-filter: none !important;
+}
+iframe:not([title='Disqus']):not([src*='ihlenndgcmojhcghmfjfneahoeklbjjh']) {
+  background: white !important;
+}
+
+/* Text contrast */
+html {
+  text-shadow: 0 0 0 !important;
+}
+
+/* Full screen */
+*:-webkit-full-screen, *:-webkit-full-screen * {
+  -webkit-filter: none !important;
+}
+
+/* Page background */
+html {
+  background: rgb(25,25,25) !important;
+}
+
+/* Custom rules */
+#disqus_thread > :first-child { background: black !important; }
+
+}</style>  
+  <script src="./task1_files/fusioncharts.js.download" type="text/javascript"></script>
+  <script src="./task1_files/fusioncharts.charts.js.download" type="text/javascript"></script>  
+  <script type="text/javascript" charset="utf-8">
+      //ie8
+      if(!document.getElementsByClassName) {
+          document.getElementsByClassName = function(className) {
+              return this.querySelectorAll("." + className);
+          };
+          Element.prototype.getElementsByClassName = document.getElementsByClassName;
+      }
+      
+       function resizeCharts() {
+                var charts = document.getElementsByClassName('FusionCharts');
+                if (charts.length > 0) {
+                    for (var i = 0; i < charts.length; i++) {
+                        charts[i].style.width = "100%";
+                    }
+                }
+            }
+      window.onresize = function() {
+        resizeCharts();
+      }
+  </script>
+
+<style>
+    .contentGraficas {
+      text-align:center;
+    }
+    ul.graficas {
+      margin:0 auto;
+      /*margin-top:10px;*/
+      padding:0;
+      font-family: Arial;
+      font-size: 11px;
+      list-style: none;
+      display: table;
+    }
+      ul.graficas > li {
+        margin:0 0 10px 0; padding:0;
+      }
+      ul.graficas li span {
+        display:inline;
+        /*padding-left:15px;*/
+        margin-right: 15px;
+        background-repeat: no-repeat;
+      }
+     /* ul.graficas li span.cuadradito {
+        background-image: none;
+        display:inline;
+        padding-right:11px;
+        padding-left:0;
+        margin-left: 3px;
+      }*/
+      /*  ul.graficas li.norenovable span.norenovable {
+          background-image: url('/sites/all/modules/custom/ree_custom_balance_diario/img/bgGraficas.png');
+          background-position: 0 0;
+        }
+
+        ul.graficas li.renovable span.renovable {
+          background-image: url('/sites/all/modules/custom/ree_custom_balance_diario/img/bgGraficas.png');
+          background-position: 0 -80px;
+        }
+        ul.graficas li.renovable span.cuadradito {
+          background-image: none !important;
+        }*/
+
+      ul.graficas li ul {
+        display:inline;
+        margin: 0; padding: 0;
+      }
+      ul.graficas li ul li {
+        display:inline;
+        /*padding-left:15px;*/
+        /*background-image: url('/sites/all/modules/custom/ree_custom_balance_diario/img/bgGraficas.png');*/
+        background-repeat: no-repeat;
+      }
+      /* graficos leyendas No Renovables*/
+       /* ul.graficas li ul li.NR1 {
+          background-position: 0 -16px;
+        }
+        ul.graficas li ul li.NR2 {
+          background-position: 0 -32px;
+        }
+        ul.graficas li ul li.NR3 {
+          background-position: 0 -48px;
+        }
+        ul.graficas li ul li.NR4 {
+          background-position: 0 -64px;
+        }
+        ul.graficas li ul li.NR5 {
+          background-image: none;
+        }
+        ul.graficas li ul li.NR5 {
+          padding-left: 0px;
+        }
+        ul.graficas li ul li.NR5 span.cuadradito {
+          background-color: #ef8f00 ;
+          margin-right: 3px;
+          width: 11px;
+        }*/
+      /* graficos leyendas Renovables*/
+      /*  ul.graficas li ul li.RE1 {
+          background-position: 0 -96px;
+        }
+        ul.graficas li ul li.RE2 {
+          background-position: 0 -112px;
+        }
+        ul.graficas li ul li.RE3 {
+          background-position: 0 -128px;
+        }
+        ul.graficas li ul li.RE4 {
+          background-position: 0 -144px;
+        }
+        ul.graficas li ul li.RE5 {
+          background-position: 0 -160px;
+        }*/
+  </style>
+  </head>
+
+<body>
+<table summary="Se dan los datos del balance el&amp;eacute;ctrico, d&amp;iacute;a, mes, tanto por ciento del incremento del mes, a&amp;ntilde;o, tanto por ciento del incremento del a&amp;ntilde;o, el a&amp;ntilde;o m&amp;oacute;vil, tanto por ciento del incremento del m&amp;oacute;vil para las siguientes energ&amp;iacute;as, hidr&amp;aacute;ulicas, nuclear, hulla + antracita, lignito pardo, lignito negro, hulla de iportacion, carb&amp;oacute;n, fuel + gas, ciclo combinado, r&amp;eacute;gimen ordinario, consumos generaci&amp;oacute;n, r&amp;eacute;gimen especial, generaci&amp;oacute;n, consumos en bombeo, saldo intercambios internacionales, demanda transporte(b.c.), incremento de la demanda, perdidas en transporte, demanda distribuci&amp;oacute;n">
+<tbody>
+<tr class="primera odd"><th class="titulo ini" scope="row">2017/10/10</th><th class="titulo" scope="col">Demand (b.c)</th><th class="titulo" scope="col">Generation(1,234.56)</th><th class="titulo" scope="col">Motores diesel</th><th class="titulo" scope="col">Turbina de gas</th><th class="titulo" scope="col">Fuel + Gas</th><th class="titulo" scope="col">Ciclo combinado (3)</sup></th><th class="titulo" scope="col">Generación auxiliar (4)</th> </tr>
+<tr class="primera odd"><th class="titulo ini" scope="row">10102017T0000</th><th class="titulo" scope="col">Demand (B.C)</th><th class="titulo" scope="col">GENERATION(1234.56)</th><th class="titulo" scope="col">Motores diesel</th><th class="titulo" scope="col">Turbina%de%gas</th><th class="titulo" scope="col">Fuel y Gas(3)</th><th class="titulo" scope="col">Ciclo combinado</sup></th><th class="titulo" scope="col">Generación auxiliar (4)</th> </tr>
+<tr class="primera odd"><th class="titulo ini" scope="row">10-10-2017</th><th class="titulo" scope="col">Demand (b.c)</th><th class="titulo" scope="col">Generation(1234,56)</th><th class="titulo" scope="col">Motores diesel</th><th class="titulo" scope="col">Turbina de gas</th><th class="titulo" scope="col">Fuel y Gas</th><th class="titulo" scope="col">Ciclo combinado</sup></th><th class="titulo" scope="col">Generación.auxiliar</th> </tr></tbody>
+
+</table></body></html>
